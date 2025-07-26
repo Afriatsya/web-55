@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kejutan untuk Indah</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      background: #fff0f5;
+      font-family: 'Segoe UI', sans-serif;
+      color: #4a4a4a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #e75480;
+      margin-bottom: 20px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      width: 100%;
+      max-width: 800px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .poem {
+      margin-top: 40px;
+      background: #fff;
+      padding: 25px;
+      border-radius: 15px;
+      max-width: 700px;
+      text-align: center;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      animation: fadeIn 2s ease-in;
+    }
+
+    .poem p {
+      font-size: 18px;
+      line-height: 1.7;
+      font-style: italic;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+  <h1>Kejutan Kecil untuk Indah 🎉</h1>
+
+  <div class="gallery">
+    <img src="assets/WhatsApp Image 2025-06-07 at 19.50.50_25f5241b.jpg" alt="Birthday">
+    <img src="assets/WhatsApp Image 2025-06-07 at 19.50.51_caba0fb6.jpg" alt="Cake">
+    <img src="assets/WhatsApp Image 2025-06-07 at 20.05.10_9e185921.jpg" alt="Flowers">
+    <img src="assets/WhatsApp Image 2025-06-07 at 20.05.11_47217038.jpg" alt="Gift">
+  </div>
+
+  <div class="poem">
+    <p>
+      Di setiap senyummu tersimpan hangatnya pagi,<br>
+      Di setiap harimu, semoga cinta selalu menyinari.<br>
+      Tetaplah jadi indah, seperti namamu sendiri,<br>
+      Karena dunia butuh lebih banyak hati sepertimu di sini. 💖
+    </p>
+  </div>
+</body>
+</html>
